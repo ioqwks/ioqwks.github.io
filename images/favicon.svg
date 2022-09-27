@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.3.0.31-->
+<svg fill="none" fill-rule="evenodd" stroke="black" stroke-width="0.501" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="41.092pt" height="42.75pt" viewBox="366.638 -528.402 41.092 42.75">
+ <defs>
+	</defs>
+ <g id="Layer 1" transform="scale(1 -1)">
+  <path d="M 369.194,519.886 L 367.417,486.774 L 406.851,486.399 L 399.723,527.493 L 369.194,519.886 Z" stroke-linecap="round" stroke="#ffffff" stroke-width="1.477" fill="#de1f1f" stroke-linejoin="miter" marker-start="none" marker-end="none"/>
+  <g id="Group" stroke-linecap="round" stroke="#ffffff" stroke-width="2.955" fill="#fffefe" fill-rule="nonzero" stroke-linejoin="round">
+   <path d="M 395.257,495.424 L 394.53,493.262 C 392.98,493.891 391.546,494.792 390.224,495.967 C 388.756,494.954 387.147,494.415 385.399,494.351 C 382.633,494.248 380.339,495.284 378.514,497.456 C 376.687,499.628 375.729,502.469 375.634,505.975 C 375.54,509.449 376.319,512.344 377.969,514.66 C 379.621,516.977 381.899,518.188 384.81,518.294 C 387.575,518.397 389.872,517.38 391.701,515.242 C 393.531,513.109 394.492,510.261 394.588,506.703 C 394.691,502.89 393.778,499.817 391.847,497.48 C 392.989,496.584 394.127,495.898 395.257,495.424 Z M 389.75,499.078 C 391.253,500.81 391.961,503.308 391.874,506.571 C 391.795,509.488 391.11,511.752 389.819,513.364 C 388.526,514.976 386.881,515.747 384.881,515.673 C 382.881,515.6 381.272,514.745 380.053,513.109 C 378.835,511.472 378.267,509.127 378.348,506.075 C 378.429,503.084 379.121,500.802 380.426,499.227 C 381.73,497.651 383.383,496.899 385.384,496.974 C 386.364,497.01 387.241,497.247 388.014,497.687 C 387.122,498.308 386.248,498.718 385.384,498.918 L 385.96,501.183 C 387.588,500.706 388.85,500.004 389.75,499.078 Z" marker-start="none" marker-end="none"/>
+  </g>
+ </g>
+</svg>

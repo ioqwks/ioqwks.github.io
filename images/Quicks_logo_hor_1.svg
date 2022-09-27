@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Generator: Xara Designer (www.xara.com), SVG filter version: 6.3.0.31-->
+<svg fill="none" fill-rule="evenodd" stroke="black" stroke-width="0.501" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="186.62pt" height="76.151pt" viewBox="360.192 -457.901 186.62 76.151">
+ <defs>
+	</defs>
+ <g id="Layer 1" transform="scale(1 -1)">
+  <text xml:space="preserve" transform="translate(359.294 399.195) scale(1 -1)" kerning="auto" font-size="20" stroke-linecap="round" font-style="italic" fill="#666666" stroke="none" stroke-width="0.321" stroke-linejoin="round" font-family="Archivo Narrow" font-weight="bold"><tspan x="0" y="0">Choose. Customize. Go.</tspan></text>
+  <path d="M 431.459,420.532 L 495.435,420.532" fill="none" stroke-linecap="round" stroke="#4dff09" stroke-width="0.5" stroke-linejoin="round"/>
+  <text xml:space="preserve" transform="translate(407.362 425.504) scale(1 -1)" kerning="auto" stroke-linecap="round" stroke="none" stroke-width="0.445" font-family="Impact" stroke-linejoin="round" font-size="28"><tspan x="0" y="0" fill="#de1f1f">Quicks.io</tspan></text>
+  <g id="Group" stroke-linecap="round" stroke="#ffffff">
+   <path d="M 388.056,449.385 L 386.279,416.274 L 425.713,415.899 L 418.585,456.993 L 388.056,449.385 Z" stroke-width="1.476" fill="#de1f1f" stroke-linejoin="miter" marker-start="none" marker-end="none"/>
+   <g id="Group_1" stroke-width="2.955" fill="#fffefe" fill-rule="nonzero" stroke-linejoin="round">
+    <path d="M 414.119,424.923 L 413.392,422.762 C 411.842,423.391 410.408,424.292 409.086,425.467 C 407.618,424.454 406.009,423.915 404.261,423.851 C 401.495,423.747 399.201,424.784 397.376,426.956 C 395.549,429.128 394.592,431.969 394.497,435.476 C 394.402,438.949 395.181,441.844 396.831,444.16 C 398.482,446.477 400.76,447.688 403.672,447.794 C 406.437,447.897 408.734,446.88 410.563,444.742 C 412.393,442.609 413.354,439.761 413.451,436.202 C 413.554,432.39 412.64,429.317 410.709,426.981 C 411.851,426.084 412.989,425.397 414.119,424.923 Z M 408.611,428.578 C 410.115,430.31 410.823,432.808 410.737,436.071 C 410.656,438.988 409.972,441.252 408.68,442.864 C 407.388,444.476 405.742,445.247 403.744,445.173 C 401.744,445.1 400.134,444.245 398.916,442.609 C 397.697,440.972 397.129,438.627 397.211,435.575 C 397.291,432.584 397.982,430.302 399.288,428.727 C 400.592,427.151 402.245,426.399 404.246,426.474 C 405.225,426.51 406.103,426.747 406.876,427.187 C 405.984,427.808 405.11,428.218 404.246,428.419 L 404.823,430.683 C 406.45,430.206 407.712,429.504 408.611,428.578 Z" marker-start="none" marker-end="none"/>
+   </g>
+  </g>
+ </g>
+</svg>

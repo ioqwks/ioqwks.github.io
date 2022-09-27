@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg10068"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="Quciks_symbol_fromX_1.svg"
+   inkscape:export-filename="D:\work\cust\quicksio\src\dev\images\QuicksSymbol_png.png"
+   inkscape:export-xdpi="25.496672"
+   inkscape:export-ydpi="25.496672"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview10070"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="0.42671857"
+     inkscape:cx="397.2173"
+     inkscape:cy="562.43157"
+     inkscape:window-width="1366"
+     inkscape:window-height="664"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs10065">
+    <pattern
+       id="EMFhbasepattern"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-5"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+    <pattern
+       id="EMFhbasepattern-3"
+       patternUnits="userSpaceOnUse"
+       width="6"
+       height="6"
+       x="0"
+       y="0" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#de1f1f;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:4.52554px;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 15.90798,34.350409 10.36901,133.82934 133.28575,134.95596 111.06758,11.492859 Z"
+       id="path14856" />
+    <path
+       style="fill:#fffefe;fill-opacity:1;fill-rule:evenodd;stroke:#ffffff;stroke-width:9.06026px;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 97.14696,107.84422 -2.26605,6.49249 c -4.83139,-1.8898 -9.30122,-4.59668 -13.42193,-8.12684 -4.57582,3.04347 -9.59104,4.66278 -15.03958,4.85518 -8.62179,0.31195 -15.77222,-2.80318 -21.46079,-9.32883 -5.69476,-6.525541 -8.67776,-15.060981 -8.97387,-25.597471 -0.2959,-10.4343 2.13201,-19.13214 7.27508,-26.09027 5.14627,-6.96129 12.2468,-10.59954 21.32355,-10.91803 8.61859,-0.30977 15.77841,2.74603 21.47945,9.16937 5.70414,6.4085 8.69962,14.96499 9.00202,25.65778 0.32064,11.45283 -2.52793,20.68524 -8.54693,27.703581 3.55964,2.69487 7.10682,4.75898 10.62905,6.18304 z M 79.97845,96.863139 c 4.68798,-5.20367 6.89484,-12.70858 6.62678,-22.512 -0.25259,-8.76383 -2.38461,-15.56587 -6.41172,-20.40895 -4.0272,-4.84308 -9.1579,-7.15959 -15.38568,-6.93719 -6.23408,0.21924 -11.25239,2.78814 -15.04896,7.70332 -3.79967,4.91823 -5.57011,11.9635 -5.31453,21.13298 0.2495,8.98624 2.40317,15.84227 6.4741,20.57421 4.06453,4.734981 9.21698,6.994221 15.45415,6.768881 3.05157,-0.10908 5.78827,-0.82024 8.19773,-2.14221 C 71.79,99.176589 69.06567,97.944719 66.37259,97.340779 l 1.79848,-6.80193 c 5.07141,1.43311 9.00511,3.54216 11.80738,6.32429 z"
+       id="path14858" />
+  </g>
+</svg>
