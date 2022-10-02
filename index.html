@@ -1,10 +1,13 @@
+
+<!-- Breaking into multiple for PWA -->
 <!DOCTYPE html>
 <html>
-<head qx_id="edu.goStdy.head">
-    <style type="text/css"media="screen,print">@import url(https://fonts.googleapis.com/css?family=Leckerli+One:200,400,700|Montserrat:800|Satisfy:200,400,700,900|Days+One:200,400,700,900|Poppins:200,400,700|Lato:200,400,500,700|Roboto:200,400,500,700,900|Rubik:200,400,500,700,900);</style><meta name="viewport"content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta charset="UTF-8"><meta name="description"content="Choose. Customize. Go."><meta name="keywords"content="No code,Low code, designer messages,online work,themes,web themes,social media, social media designer messages, WhatsApp,Facebook, FB, instagra, insta, twitter,tweet"><meta name="tagline"content="Create. Don't code."><meta name="author"content="Quicks.io"><link defer="" rel="shortcut icon" type="image/x-icon" href="./images/QuicksSymbol_png.png"><title>Choose. Customize. Go.</title>
+<head qx_id="quicks.io.head">
+    <style type="text/css"media="screen,print">@import url(https://fonts.googleapis.com/css?family=Leckerli+One:200,400,700|Montserrat:800|Satisfy:200,400,700,900|Days+One:200,400,700,900|Poppins:200,400,700|Lato:200,400,500,700|Roboto:200,400,500,700,900|Rubik:200,400,500,700,900);</style><meta name="viewport"content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta charset="UTF-8"><meta name="description"content="Choose. Customize. Go."><meta name="keywords"content="No code,Low code, designer messages,online work,themes,web themes,social media, social media designer messages, WhatsApp,Facebook, FB, instagra, insta, twitter,tweet"><meta name="tagline"content="Create. Don't code."><meta name="author"content="Quicks.io"><link defer="" rel="shortcut icon" type="image/x-icon" href="./images/QuicksSymbol_png.png"><title>World's fastest 4 social media</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css"><link href="common/style.css"rel="stylesheet"type="text/css"><link rel="stylesheet"href="common/animate.min.css"type="text/css"><style>.call2Action{background-color:#4acf55;border-color:#4acf55;color:#fff}@keyframes shadowAnim{50%{box-shadow:2px 2px 0 gray}}.font-DaysOne{font-family:'Days One',Arial,Georgia,serif!important}.font-Montserrat{font-family:Montserrat,Arial,Georgia,serif!important}</style>
 </head>
 <!----( FASHION )(SMALL BUSINESS) (TBD)--->
+
 <body class="text_intact" style="line-height: 1.2;font-family: Roboto, Arial, Georgia, serif;font-size: 18px;">
   <!-- modal disable keyboard esc and outside click closure of modal add data-backdrop="static" data-keyboard="false"  -->
   <div class="modal mx-auto"id="myModal"tabindex="-1"role="dialog"aria-labelledby="dynamicModal"style="z-index:5000;display:none;transition:opacity 5ms linear;background-color:#000"aria-hidden="true"><div id="dialogueWidth"class="modal-dialog mx-auto fs_modalWidth"><div id="modContent"class="modal-content"style="border-radius: 8px;border:5px solid #15d0f1;outline: 4px solid white;"><div class="modal-header"style="padding:.2rem"><div style="top:5px;position:sticky;z-index:20;padding:10px 0;width:max-content;left:95%"><button id="modalClose_def"type="button"class="close"data-dismiss="modal"style="margin-right:5px;display:block">X</button> <button id="modalClose_back"type="button"class="close"data-dismiss="modal"style="margin-right:5px;display:none;width:53px;height:45px;padding:10px;fill:#0275d8"><svg style="pointer-events:none"width="100%"height="100%"xmlns="http://www.w3.org/2000/svg"xmlns:xlink="http://www.w3.org/1999/xlink"x="0px"y="0px"viewBox="0 0 512 512"xml:space="preserve"><g><g><path d="M0,0v512h512V0H0z M384,277.333H179.499l48.917,48.917c8.341,8.341,8.341,21.824,0,30.165c-4.16,4.16-9.621,6.251-15.083,6.251c-5.461,0-10.923-2.091-15.083-6.251l-85.333-85.333c-1.963-1.963-3.52-4.309-4.608-6.933c-2.155-5.205-2.155-11.093,0-16.299c1.088-2.624,2.645-4.971,4.608-6.933l85.333-85.333c8.341-8.341,21.824-8.341,30.165,0s8.341,21.824,0,30.165l-48.917,48.917H384c11.776,0,21.333,9.557,21.333,21.333S395.776,277.333,384,277.333z"></path></g></g></div></div><div class="modal-body"style="border-top:1px solid #15d0f1;"><h4 class="modal-title"id="modHeader"style="background:#f5f5f5;padding:1rem;border:1px solid #f2e3e3;text-align:center"></h4><div id="modBody"></div></div><div class="modal-footer"style="display:none"><button type="button"class="btn btn-default"data-dismiss="modal">Close</button></div></div></div></div>
@@ -66,15 +69,23 @@
 
 
   <!-- SECTION HEADER start ----->
-<section id="header" class="container-fluid s_LightBg" qx_id="productTheme_spa-8_header" style="margin-bottom: 1px;">
+<section id="header" class="container-fluid s_LightBg px-0" qx_id="productTheme_spa-8_header" style="margin-bottom: 1px;">
 <!--bs_container-fluid header message --> 
 <div id="home" class="row no-gutters" style="margin-top:62px;">
       <!-- <div id="dirObserver" class="observer__target" style="position:absolute;width:100%;height:100vh;top:10px;left:0;background:transparent;"></div> -->
-      <div id="headerCarousal" class="carousel slide col-12 mt-2" data-ride="carousel" data-interval="10000"  data-pause="true" >  <!--  data-interval="3000" data-interval="0" will make it manual -->
+      <div id="headerCarousal" class="carousel slide col-12 mt-2" data-ride="carousel" data-interval="6000"  data-pause="true" data-touch="true">  <!--  data-interval="3000" data-interval="0" will make it manual -->
          <!-- Fixed Text on each slider -->
+         
+         
          <div class="abImageHeader abImagePosition" style="background-image:linear-gradient(rgba(0, 0, 0, 0.33),rgba(0, 0, 0, 0.33)),url('./images/socialMedia_poeplePlaces_2.gif');background-repeat: repeat;"></div>
-          <!--  bullets -->
-          <ol class="carousel-indicators" style="background-color: #17191ac4; width: max-content;margin: 0px auto;padding:15px 90px;border: 1px solid #ff0404;">
+         <div class="row sliderCall2Action" style="height:50px; bottom: 55px;">
+            <button type="button" class="btn call2Action col-sm-4 col-12 mb-sm-0 mb-1">
+                <a href="#exploreDesigns" style="color:white !important;">Explore Designs</a>
+            </button>
+            <button id="i-navItemsMoreC2A" type="button" status="collapsed" class="collapsed btn call2Action col-sm-4 col-12 ml-sm-1 ml-0">Learn More</button>
+         </div>
+         <!--  bullets -->
+          <ol class="carousel-indicators" style="width: max-content;margin: 0px auto;padding:5px 90px;">
               <li data-target="#headerCarousal" data-slide-to="0" class="active">1</li>
               <li data-target="#headerCarousal" data-slide-to="1" class="">2</li>
               <li data-target="#headerCarousal" data-slide-to="2" class="">3</li>
@@ -84,7 +95,7 @@
           <!-- CAPTIONS, if any -->
           <div id="headerText" class="row d_topCaption mx-auto" style="opacity: 0;"> 
             <div class="col-12 mx-auto fs_relative py-2" style="color: white;">
-              <div style="color: #fded04;" class="row fs_resp_SL pt-3 justify-content-center text-center font-Montserrat">Fastest way to social media expansion</div>
+              <div style="color: #fded04;text-shadow: 1px 1px #cdcbaa;" class="row fs_resp_SL pt-3 justify-content-center text-center font-Montserrat">Fastest way to social media expansion</div>
               <!-- Engage across multiple social media spectrum. -->
               <div class="row mx-auto">
                   <div class="col-xl-6 col-lg-8 col-md-10 col-12 mx-auto mt-2 fs_resp_Sub_Sub_SL justify-content-center text-center" style="color: #761137;background-color: #fded04;outline: 4px solid #fded04b0;">Let's customize for <span style="font-family:Rubik;font-weight:700;">WhatsApp</span> & auto generate for rest.
@@ -95,7 +106,7 @@
           <!-- d_topCaption ends -->
 
           <!-- Actual SLIDERS  of images and static text ( carousal-innter the rows )-->
-          <div class="carousel-inner mt-sm-5 mt-3 mb-sm-0 mb-5 fs_carousalItem_H" >
+          <div id="carouselInner" class="carousel-inner mt-sm-5 mt-3 mb-sm-0 mb-5 fs_carousalItem_H" >
             <!-- Actual sliders carousal-item -->
             <!-- 1st slide -->
               <div class="carousel-item active" >
@@ -107,11 +118,11 @@
                                 <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 256 256" xml:space="preserve"><circle id="_x33_" cx="114.5" cy="42.7" r="21.7"/><path id="_x32__12_" d="M34.9,152.5l-0.2-0.2l0,0c-0.9-0.6-1.7-1.1-2.4-1.9l2.4,27.5L4.5,220.7c-4.3,6.2-2.8,14.6,3.2,18.9c6.2,4.3,14.6,2.8,18.9-3.2l32.6-47c1.7-2.4,2.8-5.6,2.4-8.8l-1.1-13.3L34.9,152.5z"/><path id="_x31__15_" d="M124.6,242h129.4l-24.2-75.5c0,0-13.7,3.4-40.8,32.2c-0.6,0.6-1.3,1.3-1.9,1.9l-65.4-37.8c1.1-2.1,1.3-4.5,0.9-7.1l-23.2-86c-1.9-8.4-9.4-14.8-18.2-14.8H37.9c-3.2,0-6.4,1.7-8.2,4.5L8.1,96.9c-2.8,4.5-1.1,10.3,3.4,12.9l24.2,13.9l-3.2,5.4c-3.9,6.4-1.7,14.6,4.9,18.2l54.3,31.3v49.6c0,7.5,6,13.5,13.5,13.5s13.5-6,13.5-13.5v-56.6l60.1,34.8c-12.4,7.1-26.6,8.4-36.7,14.4C129.7,228.2,124.6,242,124.6,242z M40.3,115.8l-15.9-9.2l0,0L43.3,74h21.2L40.3,115.8z M75.2,136l15-26.2l11.2,41.2L75.2,136z"/></svg>
                               </div>
                               <!-- only for active make opacity 0 -->
-                                <div id="carousalItem1_Text" class="card-body" style="padding: 0.5rem; opacity: 0;">
+                                <div id="carousalItem1_Text" class="card-body" style="padding:0.5rem 0.1rem; opacity: 0;">
                                   <h5 class="text-blue card-title font-bold" style="font-family: 'Poppins';font-weight: 700;">SAVE EFFORTS.</h5>
                                   <h6 class="card-subtitle mb-2 text-red" style="font-family: 'Poppins';font-weight:799;">Never Create. Just Customize.</h6>
                                   <p class="card-text fs_slider_resp_bdyText">
-                                    Real world, ready to use designs. Always meaningful, relevant & beautiful. Just choose, edit and start sharing.</p>
+                                    <span class="fontW7">Real world, ready to use designs.</span> Always meaningful, relevant & beautiful. Just choose, edit and start sharing.</p>
                                 </div>
                               </div>
                         </div>
@@ -128,10 +139,10 @@
                             <div class="mx-auto fill-black" style="height:50px;width:50px; ">
                               <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" 	 width="35.469px" height="35.469px" viewBox="0 0 35.469 35.469" style="enable-background:new 0 0 35.469 35.469;" xml:space="preserve"><g>	<path d="M35.469,18.384c0,9.104-7.406,16.512-16.512,16.512c-9.078,0-16.465-7.365-16.507-16.434H0l3.669-5.506l3.669,5.506H5.201c0.042,7.551,6.195,13.682,13.755,13.682c7.587,0,13.76-6.172,13.76-13.76c0-7.588-6.173-13.76-13.76-13.76c-0.761,0-1.376-0.617-1.376-1.377c0-0.76,0.615-1.375,1.376-1.375C28.062,1.873,35.469,9.28,35.469,18.384z M18.959,28.628c-5.648,0-10.244-4.595-10.244-10.244c0-0.254-0.205-0.459-0.459-0.459c-0.253,0-0.458,0.205-0.458,0.459c0,6.154,5.007,11.162,11.161,11.162c6.152,0,11.16-5.008,11.16-11.162c0-6.152-5.008-11.162-11.16-11.162c-0.253,0-0.458,0.207-0.458,0.46c0,0.254,0.205,0.459,0.458,0.459c5.646,0,10.242,4.596,10.242,10.242C29.201,24.033,24.605,28.628,18.959,28.628z M13.661,25.081c0.269,0.27,0.621,0.402,0.973,0.402s0.704-0.135,0.973-0.402l4.324-4.324c0.259-0.258,0.403-0.606,0.403-0.973v-7.783c0-0.761-0.616-1.377-1.376-1.377c-0.761,0-1.376,0.616-1.376,1.377v7.212l-3.92,3.92C13.125,23.671,13.125,24.542,13.661,25.081z M3.212,7.224c0-3.674,2.978-6.65,6.65-6.65s6.65,2.979,6.65,6.65c0,3.671-2.978,6.65-6.65,6.65S3.212,10.896,3.212,7.224z M5.235,7.318l2.969,2.968c0.179,0.18,0.414,0.271,0.648,0.271c0.235,0,0.47-0.09,0.649-0.271l4.974-4.975c0.358-0.358,0.358-0.938,0-1.297c-0.358-0.359-0.939-0.358-1.297,0L8.852,8.338l-2.32-2.318c-0.358-0.357-0.94-0.357-1.297,0C4.876,6.38,4.876,6.96,5.235,7.318z"/></g></svg>
                             </div>
-                            <div class="card-body" style="padding: 0.5rem;">
-                              <h5 class="text-blue card-title font-bold" style="font-family: 'Poppins';font-weight: 700;">AUTO GENERATE. SAVE TIME.</h5>
-                              <h6 class="card-subtitle mb-2 text-red" style="font-family: 'Poppins';font-weight:799;">Expand social media presence.</h6>
-                              <p class="card-text fs_slider_resp_bdyText"><span class="fontW7">Visuals auto generated in perfect sizes for each social media.</span> Save your time & energy. Increase social media footprint, be more visible & build more relationships.</p>
+                            <div class="card-body" style="padding:0.5rem 0.1rem;">
+                              <h5 class="text-blue card-title font-bold" style="font-family: 'Poppins';font-weight: 700;">SAVE TIME & ENERGY.</h5>
+                              <h6 class="card-subtitle mb-2 text-red" style="font-family: 'Poppins';font-weight:799;">AUTO GENERATE.</h6>
+                              <p class="card-text fs_slider_resp_bdyText"><span class="fontW7">Auto generate in perfect sizes for each social media.</span> Effortlessly expand social media footprint & online visibility.</p>
                             </div>
                           </div>
                     </div>
@@ -148,10 +159,11 @@
                         <div class="mx-auto fill-black" style="height:50px;width:50px; ">
                           <svg width="100%" height="100%" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 511.882 511.882" style="enable-background:new 0 0 511.882 511.882;" xml:space="preserve"><path style="fill:#E6E9ED;" d="M437.239,501.212c0,5.89-4.78,10.67-10.685,10.67H85.312c-5.89,0-10.669-4.78-10.669-10.67V95.978c0-5.89,4.779-10.662,10.669-10.662h341.242c5.904,0,10.685,4.772,10.685,10.662V501.212z"/><polygon style="fill:#DA4453;" points="143.962,319.926 207.948,213.287 271.925,319.926 "/><polygon style="fill:#ED5564;" points="197.287,319.926 282.587,170.625 367.912,319.926 "/><g><rect x="117.301" y="63.981" style="fill:#CCD1D9;" width="63.985" height="42.654"/><rect x="330.571" y="63.981" style="fill:#CCD1D9;" width="63.985" height="42.654"/></g><g><path style="fill:#434A54;" d="M298.584,447.897h-85.301c-5.89,0-10.67-4.78-10.67-10.67c0-5.889,4.78-10.653,10.67-10.653h85.301c5.904,0,10.685,4.765,10.685,10.653C309.268,443.117,304.488,447.897,298.584,447.897z"/><path style="fill:#434A54;" d="M341.261,405.235h-170.64c-5.89,0-10.661-4.765-10.661-10.654c0-5.889,4.771-10.669,10.661-10.669	h170.64c5.873,0,10.653,4.78,10.653,10.669C351.915,400.47,347.134,405.235,341.261,405.235z"/></g><g><path style="fill:#FFCE54;" d="M373.253,10.662c0-5.89-4.78-10.662-10.686-10.662c-5.873,0-10.653,4.772-10.653,10.662l0,0l0,0	v53.323h21.339V10.662L373.253,10.662L373.253,10.662z"/>	<path style="fill:#FFCE54;" d="M159.96,10.662C159.96,4.772,155.188,0,149.298,0s-10.669,4.772-10.669,10.662l0,0l0,0v53.323h21.331L159.96,10.662L159.96,10.662L159.96,10.662z"/></g></svg>
                         </div>
-                        <div class="card-body" style="padding: 0.5rem;">
+                        <div class="card-body" style="padding:0.5rem 0.1rem;">
                           <h5 class="text-blue card-title font-bold" style="font-family: 'Poppins';font-weight: 700;">SAY WITH VISUALS.</h5>
                           <h6 class="card-subtitle mb-2 text-red" style="font-family: 'Poppins';font-weight:799;">Make An Impact.</h6>
-                          <p class="card-text fs_slider_resp_bdyText">People remember 10% when spoken, 20% when read and 80% when shown. We make it super simple & fast to create rich visuals. So create more, share more, show more.</p>
+                          <p class="card-text fs_slider_resp_bdyText"><span class="fontW7">Text & audio had only 20% impact and visuals 80%.</span>  With easier & faster creation show & share more, make an impact.</p>
+                          <!-- <p class="card-text fs_slider_resp_bdyText"><span class="fontW7">Text & audio just had only 20% impacts and visuals 80%.</span> Create & share more visuals with Quicks easy & fast way.</p> -->
                           <!-- With Quicks do visuals within no time and start making the impact.</p> -->
                         </div>
                       </div>
@@ -183,12 +195,12 @@
 </section>
 <!-- SECTION HEADER ends -->
 
-<!-- SECTION explore products ----->
-<section id="exploreDesigns"class="container-fluid fs_LightBg fs_relative fs_basicSection"style="overflow-y:scroll"><div class="fs_container"><div class="fs_containerMargin"><div class="row"><div id="explTxt"class="col-12 fs_resp_HL">Explore</div></div><div id="sticked"class="container-fluid pb-1"style="background-color:#fff"><div class="row mx-auto"style="background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8));overflow:visible"><div id="stickyHL"class="col-12 d-block text-center font-Montserrat fs_resp_Sub_SL mb-1"style="color:#fded04">Designs for real world use.</div><div class="col-12 d-block mx-auto text-center text-16 fontW7"style="color:ivory">Just choose, customize and go.</div></div><div class="btn-group justify-content-center w-100"role="group"aria-label="Basic example"><button type="button"class="btn btn-light product_CatBtn text-15"data-toggle="collapse"data-target="#personalTab"aria-expanded="true" ontrue="noCollapse" aria-controls="personalTab">Personal</button> <button type="button"class="btn btn-light product_CatBtn text-15 collapsed"data-toggle="collapse"data-target="#bizTab"aria-expanded="false"ontrue="noCollapse"aria-controls="bizTab">Business</button></div></div><div id="stickedRemover"remdelta="10"class="row"style="height:1px;background-color:transparent"></div><div class="row mx-auto accordion d_accordionBody"id="catalogueAccordion"style="margin-top:10px;min-height:400px"><div id="personalTab"expcat="personal"empty="false"class="col-lg-8 col-xs-12 d_exp_cat mx-auto collapse show"aria-labelledby="headingOne"data-parent="#catalogueAccordion"><div class="card-columns quicks-card-columns"id="personalTabCont"expcat="personal"></div></div><div id="bizTab"expcat="biz"empty="true"class="col-lg-8 col-xs-12 mx-auto collapse d_exp_cat"aria-labelledby="headingOne"data-parent="#catalogueAccordion"><div class="card-columns quicks-card-columns"id="bizTabCont"expcat="biz"></div></div></div></div></div></section>
+<!-- SECTION explore products [This is beautified from production] ----->
+<section id="exploreDesigns" class="container-fluid fs_LightBg px-0 fs_relative fs_basicSection" style="overflow-y:auto"><div class="fs_container"><div class="fs_containerMargin"><div class="row"><div id="explTxt" class="col-12 fs_resp_HL">Explore</div></div><div id="sticked" class="container-fluid pb-1" style="background-color:#fff"><div class="row" style="background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8));overflow:visible"><div id="stickyHL" class="col-12 d-block text-center font-Montserrat fs_resp_Sub_SL mb-1" style="color:#fded04">Designs for real world use.</div><div class="col-12 d-block mx-auto text-center text-16 fontW7" style="color:ivory">Just choose, customize and go.</div></div><ul id="productCatsCarousal_li" list="personalTab,bizTab" class="nav nav-pills justify-content-center row"><li data-target="#productCatsCarousal" mysliderbody="#personalTab" data-slide-to="0" class="col-lg-1 col-sm-2 col-4 active"><button id="personalTab_btn" type="button" class="btn product_CatBtn text-15" aria-expanded="true" style="pointer-events:none">Personal</button></li><li data-target="#productCatsCarousal" mysliderbody="#bizTab" data-slide-to="1" class="ml-md-4 col-lg-1 col-sm-2 col-4"><button id="bizTab_btn" type="button" class="btn btn-light product_CatBtn text-15" aria-expanded="false" style="pointer-events:none">Business</button></li></ul></div><div id="stickedRemover" remdelta="10" class="row" style="height:1px;background-color:transparent"></div><div id="productCatsCarousal" class="carousel slide row justify-content-center mx-auto mt-2" data-ride="carousel" data-interval="0" data-pause="true" data-touch="true" style="margin-top:10px;min-height:400px"><div id="personalTab" expcat="personal" empty="false" class="col-lg-8 col-xs-12 justify-content-center mx-auto d_exp_cat carousel-item active"><div class="card-columns quicks-card-columns" id="personalTabCont" expcat="personal"></div></div><div id="bizTab" expcat="biz" empty="true" class="col-lg-8 col-xs-12 d_exp_cat carousel-item"><div class="card-columns quicks-card-columns" id="bizTabCont" expcat="biz"></div></div></div></div></div></section>
  <!-- SECTION EXPLORE PRODUCTS ends -->
 
 <!-- SECTION FOOTER STARTS ----->
-<section id="contact" class="container-fluid mt-1" qx_id="productTheme_spa-8_footer_form" style="background: #f9faf7;">
+<section id="contact" class="container-fluid px-0 mt-1" qx_id="productTheme_spa-8_footer_form" style="background: #f9faf7;">
 <!--  BS container-->
   <div class="container">
       <!--  contentBox-->
@@ -235,28 +247,14 @@
 </section>
 <!-- Footer important info and copyright -->
     <!-- position:sticky;bottom:0;  -->
-<section id="footer"  class="container-fluid pt-2" style="background-color: #43454e; position:sticky; bottom:0px;border-top: 2px solid lightgray;z-index: 1030;"> 
-  <div class="container" style="background:transparent;">
-    <div class="fs_containerMargin my-0">  
-       <div class="row text-center mx-auto" style="width: max-content;">
-            <div q_id="FQ" modal-key="others" class="col px-2 mx-2 float-left btmMenuItem modalButton " style="width:max-content;max-width: max-content;">FAQ</div>
-            <div q_id="PRC" modal-key="others" class="col px-2 mx-2 float-left btmMenuItem modalButton " style="width:max-content;max-width: max-content;">Pricing & refund</div>
-            <div q_id="HIW" modal-key="others" class="col px-2 mx-2 float-left btmMenuItem modalButton " style="width:max-content;max-width: max-content;">How it works?</div>
-       </div>
-       <div class="row text-center mt-1 mx-auto">
-          <div class="mx-auto" style="font-size: 0.6rem;font-weight: 700;color: white;">Copyright 2022 Quicks.io</div>
-       </div>
-    </div>
-    </div>
-  </div>
-</section>
-<script >
-  if ('serviceWorker' in navigator) {
-    window.addEventListener('load', () =>
-      navigator.serviceWorker.register('sw.js', { scope: './' })
-    .then(registration => { /*console.log('Service Worker registered')*/ })
-    .catch(err => 'SW registration failed'));
-  }  
+<section id="footer" class="container-fluid px-0 pt-2" style="background-color:#545455;position:sticky;bottom:0;border-top:2px solid #d3d3d3;z-index:1030"><div class="container" style="background:0 0"><div class="fs_containerMargin my-0"><div class="row text-center mx-auto" style="width:max-content"><div q_id="FQ" modal-key="others" class="col px-2 mx-2 float-left btmMenuItem modalButton" style="width:max-content;max-width:max-content">FAQ</div><div q_id="PRC" modal-key="others" class="col px-2 mx-2 float-left btmMenuItem modalButton" style="width:max-content;max-width:max-content">Pricing & refund</div><div q_id="HIW" modal-key="others" class="col px-2 mx-2 float-left btmMenuItem modalButton" style="width:max-content;max-width:max-content">How it works?</div></div><div class="row text-center mt-1 mx-auto"><div class="mx-auto" style="font-size:.6rem;font-weight:700;color:#fff">Copyright 2022 Quicks.io</div></div></div></div></section>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () =>
+          navigator.serviceWorker.register('sw.min.js', { scope: './' })
+        .then(registration => { /*console.log('Service Worker registered')*/ })
+        .catch(err => 'SW registration failed'));
+      } 
 </script>
 <script>
   addScript();var _windowDims=function(t){return{getWindow_Height:function(){return document.getElementById("i-inviCh").getBoundingClientRect().height},getWindow_Width:function(){return document.getElementById("i-inviCh").getBoundingClientRect().width},addDimElement:function(){!function(){var t=document.getElementById("i-invisibleBody")||!1;t&&t.remove();var e=document.querySelector("body"),i=document.createElement("div");i.setAttribute("id","i-invisibleBody"),e.appendChild(i),i.style.width="0px",i.style.height="0px",i.style.visibility="hidden",i.style.overflow="hidden";var n=document.createElement("div");n.setAttribute("id","i-inviCh"),i.appendChild(n),n.style.width="100vw",n.style.height="100vh",n.style.visibility="hidden"}()},addAttr:function(t,e){!function(t,e){document.getElementById("i-invisibleBody").setAttribute(t,e)}(t,e)},getAttr:function(t){return function(t){return document.getElementById("i-invisibleBody").getAttribute(t)}(t)},getelement:function(){return document.getElementById("i-inviCh")}}};function addDimensionNode(){(new _windowDims).addDimElement()}
@@ -273,10 +271,12 @@
 </script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-<script src='https://cdn.jsdelivr.net/npm/bowser@latest/es5.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bowser@latest/es5.js'></script> <! -- detect browser -- >
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js" integrity="sha512-6UofPqm0QupIL0kzS/UIzekR73/luZdC6i/kXDbWnLOJoqwklBK6519iUnShaYceJ0y4FaiPtX/hRnV/X/xlUQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha512-n6dYFOG599s4/mGlA6E+YLgtg9uPTOMDUb0IprSMDYVLr0ctiRryPEQ8gpM4DCMlx7M2G3CK+ZcaoOoJolzdCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script defer src="./js/app.js"></script>
-<script defer src="./js/app2.js"></script>
+<script defer src="./js/app2.js"></script> 
+<!-- https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js -->
+
 </body>
-</html>  
+</html>
