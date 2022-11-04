@@ -8,9 +8,17 @@ html {scroll-behavior: smooth;max-height:100vh;}body{height:100%;padding: 0;marg
   .dropdown-wrapper { 
       margin-left:-99px;
   }
-}
-@media (min-width: 576px) { /* sm */
+}@media (min-width: 576px) { /* sm */
   .dropdown-wrapper { 
     margin-left:-152px;
   }
-}
+}@media (min-width: 1px) { /* xs V */
+    .distanceLeftMoreBtmIcon { 
+        left:18px;
+    }
+  }
+  @media (min-width: 576px) { /* sm */
+    .distanceLeftMoreBtmIcon { 
+        left:110px;
+    }
+  }
