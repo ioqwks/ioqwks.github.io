@@ -1,0 +1,207 @@
+
+<!-- Breaking into multiple for PWA -->
+<!DOCTYPE html>
+<html>
+<head qx_id="quicks.io.head">
+    <style type="text/css"media="screen,print">@import url(https://fonts.googleapis.com/css?family=Leckerli+One:200,400,700|Montserrat:800|Satisfy:200,400,700,900|Days+One:200,400,700,900|Poppins:200,400,700|Lato:200,400,500,700|Roboto:200,400,500,700,900|Rubik:200,400,500,700,900);</style><meta name="viewport"content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta charset="UTF-8"><meta name="description"content="Choose. Customize. Go."><meta name="keywords"content="No code,Low code, designer messages,online work,themes,web themes,social media, social media designer messages, WhatsApp,Facebook, FB, instagra, insta, twitter,tweet"><meta name="tagline"content="Create. Don't code."><meta name="author"content="Quicks.io"><link defer="" rel="shortcut icon" type="image/x-icon" href="./images/QuicksSymbol_png.png"><title>World's fastest 4 social media</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" type="text/css"><link href="common/style_v5.css"rel="stylesheet"type="text/css"><link rel="stylesheet"href="common/animate.min.css"type="text/css"><style>.caret-off::after{visibility:hidden;}.sliderCard{background-color: rgb(1 4 24 / 22%);color: rgb(255 253 253 / 85%);}.radius50p{border-radius: 50px;;}.call2Action{background-color:#00ca6a;border-color: #f7f7f763;color: white;box-shadow: 1px 1px 0px 0px #7dcdad;}.c2Apremium{background-color: rgb(10 20 1 / 37%);border-color: #f7f7f78c;}@keyframes shadowAnim{50%{box-shadow:2px 2px 0 gray}}.font-DaysOne{font-family:'Days One',Arial,Georgia,serif!important}.font-Montserrat{font-family:Montserrat,Arial,Georgia,serif!important}</style>
+</head>
+<!----( FASHION )(SMALL BUSINESS) (TBD)--->
+
+<body class="text_intact" style="line-height: 1.2;font-family: Roboto, Arial, Georgia, serif;font-size: 18px;">
+  <!-- modal disable keyboard esc and outside click closure of modal add data-backdrop="static" data-keyboard="false"  -->
+  <div class="modal mx-auto"id="myModal"tabindex="-1"role="dialog"aria-labelledby="dynamicModal"style="z-index:5000;display:none;transition:opacity 5ms linear;background-color:#000"aria-hidden="true"><div id="dialogueWidth"class="modal-dialog mx-auto fs_modalWidth"><div id="modContent"class="modal-content"style="border-radius: 8px;border:5px solid #15d0f1;outline: 4px solid white;"><div class="modal-header"style="padding:.2rem"><div class="fs_bdyTxt" style="min-width: 20px;max-width: max-content;padding: 4px;display:none;" id="currContainer">
+    </div><div style="top:5px;position:sticky;z-index:20;padding:10px 0;width:max-content;left:95%"><button id="modalClose_def"type="button"class="close"data-dismiss="modal"style="margin-right:5px;display:block">X</button> <button id="modalClose_back"type="button"class="close"data-dismiss="modal"style="margin-right:5px;display:none;width:53px;height:45px;padding:10px;fill:#0275d8"><svg style="pointer-events:none"width="100%"height="100%"xmlns="http://www.w3.org/2000/svg"xmlns:xlink="http://www.w3.org/1999/xlink"x="0px"y="0px"viewBox="0 0 512 512"xml:space="preserve"><g><g><path d="M0,0v512h512V0H0z M384,277.333H179.499l48.917,48.917c8.341,8.341,8.341,21.824,0,30.165c-4.16,4.16-9.621,6.251-15.083,6.251c-5.461,0-10.923-2.091-15.083-6.251l-85.333-85.333c-1.963-1.963-3.52-4.309-4.608-6.933c-2.155-5.205-2.155-11.093,0-16.299c1.088-2.624,2.645-4.971,4.608-6.933l85.333-85.333c8.341-8.341,21.824-8.341,30.165,0s8.341,21.824,0,30.165l-48.917,48.917H384c11.776,0,21.333,9.557,21.333,21.333S395.776,277.333,384,277.333z"></path></g></g></div></div><div class="modal-body"style="border-top:1px solid #15d0f1;"><h4 class="modal-title"id="modHeader"style="background:#f5f5f5;padding:1rem;border:1px solid #f2e3e3;text-align:center"></h4><div id="modBody"></div></div><div class="modal-footer"style="display:none"><button type="button"class="btn btn-default"data-dismiss="modal">Close</button></div></div></div></div>
+<!-- NAVBAR MORE ITEMS in additional right menu [custom / auto generated galleries / ] -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" style="z-index: 1100;height: 0px;">
+	<div class="container">
+    <div id="i-navItemsMore" status="collapsed" class="ml-4 collapsed" style="position: absolute;top: 7px;height: 46px;overflow: visible;cursor: pointer;padding: 6px;fill: rgb(156, 116, 185);left: 50%;transform: translate(-50%);" data-toggle="collapse" href="#accordianNavbarMore" role="button" aria-expanded="false" aria-controls="collapseExample">
+        <svg style="pointer-events: none;border: 2px solid rgb(210, 162, 245);lavender;padding: 4px;border-radius: 50%;" width="100%" height="100%" viewBox="0 0 256 256" id="Flat" xmlns="http://www.w3.org/2000/svg"><path d="M28,64A12,12,0,0,1,40,52H216a12,12,0,0,1,0,24H40A12,12,0,0,1,28,64Zm12,76H216a12,12,0,0,0,0-24H40a12,12,0,0,0,0,24Zm104,40H40a12,12,0,0,0,0,24H144a12,12,0,0,0,0-24Zm88,0H220V168a12,12,0,0,0-24,0v12H184a12,12,0,0,0,0,24h12v12a12,12,0,0,0,24,0V204h12a12,12,0,0,0,0-24Z"></path></svg>
+    </div>
+  </div>
+</nav>
+<!-- Navbar row  starts-->
+<nav id="fxTpNav"  class="navbar navbar-expand-lg navbar-light fixed-top" style="min-height: 35px; background: white; border-bottom:1px solid lightgray;padding: 0.1rem 1rem;">
+  <div class="container">
+      <div class="d_logoWrapper"> 
+          <a id="fxTpBrnd" class="navbar-brand fs_resp_Sub_SL" href="#" style="padding: 0.1rem 0.5rem;">
+              <!-- ICON - complete logo -->  
+              <div id="qSvg" style="position: relative;float: left;width:159.2927px;height:65px;max-height: 50px; top:5px;">
+                <svg fill="none" fill-rule="evenodd" stroke="black" stroke-width="0.501" stroke-linejoin="bevel" stroke-miterlimit="10" font-family="Times New Roman" font-size="16" style="font-variant-ligatures:none" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" version="1.1" overflow="visible" width="100%" height="100%" viewBox="360.192 -457.901 186.62 76.151">
+                  <defs>
+                   </defs>
+                  <g id="Layer 1" transform="scale(1 -1)">
+                   <text xml:space="preserve" transform="translate(359.294 399.195) scale(1 -1)" kerning="auto" font-size="20" stroke-linecap="round" font-style="italic" fill="#666666" stroke="none" stroke-width="0.321" stroke-linejoin="round" font-family="Archivo Narrow" font-weight="bold"><tspan x="0" y="0">Choose. Customize. Go.</tspan></text>
+                   <path d="M 431.459,420.532 L 495.435,420.532" fill="none" stroke-linecap="round" stroke="#4dff09" stroke-width="0.5" stroke-linejoin="round"/>
+                   <text xml:space="preserve" transform="translate(407.362 425.504) scale(1 -1)" kerning="auto" stroke-linecap="round" stroke="none" stroke-width="0.445" font-family="Impact" stroke-linejoin="round" font-size="28"><tspan x="0" y="0" fill="#de1f1f">Quicks.io</tspan></text>
+                   <g id="Group" stroke-linecap="round" stroke="#ffffff">
+                    <path d="M 388.056,449.385 L 386.279,416.274 L 425.713,415.899 L 418.585,456.993 L 388.056,449.385 Z" stroke-width="1.476" fill="#de1f1f" stroke-linejoin="miter" marker-start="none" marker-end="none"/>
+                    <g id="Group_1" stroke-width="2.955" fill="#fffefe" fill-rule="nonzero" stroke-linejoin="round">
+                     <path d="M 414.119,424.923 L 413.392,422.762 C 411.842,423.391 410.408,424.292 409.086,425.467 C 407.618,424.454 406.009,423.915 404.261,423.851 C 401.495,423.747 399.201,424.784 397.376,426.956 C 395.549,429.128 394.592,431.969 394.497,435.476 C 394.402,438.949 395.181,441.844 396.831,444.16 C 398.482,446.477 400.76,447.688 403.672,447.794 C 406.437,447.897 408.734,446.88 410.563,444.742 C 412.393,442.609 413.354,439.761 413.451,436.202 C 413.554,432.39 412.64,429.317 410.709,426.981 C 411.851,426.084 412.989,425.397 414.119,424.923 Z M 408.611,428.578 C 410.115,430.31 410.823,432.808 410.737,436.071 C 410.656,438.988 409.972,441.252 408.68,442.864 C 407.388,444.476 405.742,445.247 403.744,445.173 C 401.744,445.1 400.134,444.245 398.916,442.609 C 397.697,440.972 397.129,438.627 397.211,435.575 C 397.291,432.584 397.982,430.302 399.288,428.727 C 400.592,427.151 402.245,426.399 404.246,426.474 C 405.225,426.51 406.103,426.747 406.876,427.187 C 405.984,427.808 405.11,428.218 404.246,428.419 L 404.823,430.683 C 406.45,430.206 407.712,429.504 408.611,428.578 Z" marker-start="none" marker-end="none"/>
+                    </g>
+                   </g>
+                  </g>
+                 </svg>
+            </div>
+          </a>
+      </div> <!-- Logo Wrapper  -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTop" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>   
+        <!-- NAVRBAR BTNs on right side  -->
+        <div class="collapse navbar-collapse" id="navbarTop" style="float:right;">
+          <ul id="logoNav" class="navbar-nav ml-auto font-DaysOne">
+            <li class="nav-item px-2" style="width: max-content;">
+              <a class="nav-link active fs_navAct" data-toggle="collapse" data-target=".navbar-collapse.show" href="#header">Home</a>
+            </li>
+            <li class="nav-item px-2" style="width: max-content;">
+              <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#exploreDesigns">Explore designs</a>
+            </li>
+            <li class="nav-item px-2" style="width: max-content;">
+              <a class="nav-link" data-toggle="collapse" data-target=".navbar-collapse.show" href="#contact">Contact</a>
+            </li>  
+          </ul>
+      </div>
+   </div>
+  </nav> <!-- Navbar row ENDS -->
+  <!-- EXTRA navitems body STARTS -->
+  <div id="i-additionalNavItemsBody"  style="display:none; position:fixed;top:52px;width: 100vw;min-height:100vh;overflow-y: auto;overflow-x: hidden;z-index: 2200;">
+      <!-- Body to be added by extraMenu -->
+  </div> <!-- i-additionalNavItemsBody -->
+ <!-- EXTRA navitems body ENDS  -->
+
+
+
+  <!-- SECTION HEADER start ----->
+<section id="header" class="container-fluid s_LightBg px-0" qx_id="productTheme_spa-8_header" style="margin-bottom: 1px;"> <div id="home" class="row no-gutters" style="margin-top:62px;"> <div id="headerCarousal" class="carousel slide col-12 mt-2" data-ride="carousel" data-interval="6000"  data-pause="hover" data-touch="true"> <div class="abImageHeader abImagePosition" style="background-image:linear-gradient(rgba(2, 12, 99, 0.26),rgba(2, 12, 99, 0.26)),url('./images/socialMedia_poeplePlaces_2.gif');background-repeat: repeat;"></div> <div class="row sliderCall2Action" style="height:50px; bottom: 100px;"> <button type="button" class="btn text-20 call2Action c2Apremium radius50p py-2 col-lg-3 col-md-4 col-sm-5 col-12 mt-sm-2 mb-sm-0 fontW5 mr-1 mb-1"> <a href="#exploreDesigns" style="color:white !important;">Order a design</a> </button> <button id="i-navItemsMoreC2A" type="button" status="collapsed" class="collapsed text-20 mt-sm-2 btn call2Action c2Apremium radius50p py-2 col-lg-3 col-md-4 col-sm-5 col-12 ml-sm-1 fontW5 ml-0">Know More</button> </div> <ol class="carousel-indicators" style="width: max-content;margin: 0px auto;padding:5px 90px;"> <li data-target="#headerCarousal" data-slide-to="0" class="active">1</li> <li data-target="#headerCarousal" data-slide-to="1">2</li> <li data-target="#headerCarousal" data-slide-to="2">3</li> </ol> <div id="headerText" class="row d_topCaption mx-auto" style="opacity: 0;"> <div class="col-12 mx-auto fs_relative py-2" style="color: white;"> <div style="color: #fded04;text-shadow: 1px 1px #cdcbaa;" class="row fs_resp_SL pt-3 justify-content-center text-center font-Montserrat">In one click create for multiple social media</div> <div class="row mx-auto"> <div class="col-xl-6 col-lg-8 col-md-10 col-12 mx-auto mt-2 fs_resp_Sub_Sub_SL justify-content-center text-center" style="color: #761137;background-color: #fded04;outline: 4px solid #fded04b0;">Customize for <span style="font-family:Rubik;font-weight:700;color:green;">WhatsApp</span> & auto generate for rest. </div> </div> </div> </div> <div id="carouselInner" class="carousel-inner mt-sm-5 mt-3 mb-sm-0 mb-5 fs_carousalItem_H"> <div class="carousel-item active"> <div class="container-fluid fsC_none_brdr"> <div class="row flex-nowrap"> <div class="mx-auto col-lg-7 col-sm-10 col-md-10 col-12 d_carousal_item"> <div class="card text-center p-2 mt-2 sliderCard"> <div id="carousalItem1_Text" class="card-body" style="padding:0.5rem 0.1rem; opacity: 0;"> <h6 class="card-subtitle mt-3 text-red font-DaysOne text-blueR fs_resp_Sub_Sub_SL">Choose, customize and share.</h6> <p class="card-text fs_slider_resp_bdyText"> Real world, ready to use designs.<span class="fontW7 text-white">Customization starts $3</span> </div> </div> </div> </div> </div> </div> <div class="carousel-item"> <div class="container-fluid fsC_none_brdr"> <div class="row flex-nowrap"> <div class="mx-auto col-lg-7 col-sm-10 col-md-10 col-12 d_carousal_item"> <div class="card text-center p-2 mt-2 sliderCard"> <div class="card-body" style="padding:0.5rem 0.1rem;"> <h6 class="card-subtitle mt-3 text-red font-DaysOne text-blueR fs_resp_Sub_Sub_SL">Auto generate for various social media.</h6> <p class="card-text fs_slider_resp_bdyText"> Effortlessly generate in perfect sizes, expand social media footprint & increase online visibility. <span class="fontW7 text-white">Generation starts $2</span> </p> </div> </div> </div> </div> </div> </div> <div class="carousel-item"> <div class="container-fluid fsC_none_brdr"> <div class="row flex-nowrap"> <div class="mx-auto col-lg-7 col-sm-10 col-md-10 col-12 d_carousal_item"> <div class="card text-center p-2 mt-2 sliderCard"> <div class="card-body" style="padding:0.5rem 0.1rem;"> <h6 class="card-subtitle mt-3 text-red font-DaysOne text-blueR fs_resp_Sub_Sub_SL">Any occassion, any need.</h6> <p class="card-text fs_slider_resp_bdyText">Personal or business, WhatsApp or other social media we have you covered. <span class="fontW7 text-white">Just choose & go.</span> </p> </div> </div> </div> </div> </div> </div> </div> <div class="carousel-control-prev" href="#headerCarousal" role="button" data-slide="prev" style="opacity: 0.8;padding: 20px;width: max-content;height: max-content;position: absolute;top: 40%;transform: translate(0, -50%);"> <span aria-hidden="true" style="width: 42px;height: 42px;border-radius: 50%;border: 3px solid #15d0f1; padding: 4px;background: white;"> <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="rgb(71 66 74)" class="bi bi-arrow-left" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"></path>   <span class="sr-only">Previous</span> </div> <div class="carousel-control-next" href="#headerCarousal" role="button" data-slide="next" style="opacity: 0.8;padding: 20px;width: max-content;height: max-content;position: absolute;top: 40%;transform: translate(0, -50%);"> <span aria-hidden="true" style="width: 42px;height: 42px;border-radius: 50%;border: 3px solid #15d0f1; padding: 4px;background: white;"> <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="rgb(71 66 74)" class="bi bi-arrow-right" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>   <span class="sr-only">Next</span> </div> </div> </div> </section>
+<!-- SECTION HEADER ends -->
+
+<!-- SECTION explore products [This is beautified from production] ----->
+<section id="exploreDesigns" class="container-fluid fs_LightBg px-0 fs_relative fs_basicSection" style="overflow-y:auto"><div class="fs_container"><div class="fs_containerMargin"><div class="row"><div id="explTxt" class="col-12 fs_resp_HL">Explore</div></div><div id="sticked" class="container-fluid pb-1" style="background-color:#fff"><div class="row" style="background-image:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8));overflow:visible"><div id="stickyHL" class="col-12 d-block text-center font-Montserrat fs_resp_Sub_SL mb-1" style="color:#fded04">Designs for real world use.</div><div class="col-12 d-block mx-auto text-center text-16 fontW7" style="color:ivory">Just choose and order.</div></div><ul id="productCatsCarousal_li" list="personalTab,bizTab" class="nav nav-pills justify-content-center row"><li data-target="#productCatsCarousal" mysliderbody="#personalTab" data-slide-to="0" class="col-lg-1 col-sm-2 col-4 active"><button id="personalTab_btn" type="button" class="btn product_CatBtn text-15" aria-expanded="true" style="pointer-events:none">Personal</button></li><li data-target="#productCatsCarousal" mysliderbody="#bizTab" data-slide-to="1" class="ml-md-4 col-lg-1 col-sm-2 col-4"><button id="bizTab_btn" type="button" class="btn btn-light product_CatBtn text-15" aria-expanded="false" style="pointer-events:none">Business</button></li></ul></div><div id="stickedRemover" remdelta="10" class="row" style="height:1px;background-color:transparent"></div><div id="productCatsCarousal" class="carousel slide row justify-content-center mx-auto mt-2" data-ride="carousel" data-interval="0" data-pause="true" data-touch="true" style="margin-top:10px;min-height:400px"><div id="personalTab" expcat="personal" empty="false" class="col-lg-8 col-xs-12 justify-content-center mx-auto d_exp_cat carousel-item active"><div class="card-columns quicks-card-columns" id="personalTabCont" expcat="personal"></div></div><div id="bizTab" expcat="biz" empty="true" class="col-lg-8 col-xs-12 d_exp_cat carousel-item"><div class="card-columns quicks-card-columns" id="bizTabCont" expcat="biz"></div></div></div></div></div></section>
+ <!-- SECTION EXPLORE PRODUCTS ends -->
+
+<!-- SECTION FOOTER STARTS ----->
+<section id="contact" class="container-fluid px-0 mt-1" qx_id="productTheme_spa-8_footer_form" style="background: #f9faf7;">
+<!--  BS container-->
+  <div class="container">
+      <!--  contentBox-->
+      <div class="fs_containerMargin my-0">     
+        <div class="row ">
+          <div class="col-sm-6 col-12">
+            <div class="fs_lcAlign fs_rtVertLine_noXS" >
+              <!-- Social media icons -->
+                  <div class="">
+                    <!--facebook idcon  --> 
+                    <button type="button" class="btn btn-secondary bg-transparent fsC_none_brdr" onclick="window.open('https://www.facebook.com/profile.php?id=101472689283605','_blank')">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 40 40" xml:space="preserve" style="pointer-events: none;"><style type="text/css">.st0{fill:url(#SVGID_1_);}.st1{fill:#FFFFFF;}</style><linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-277.375" y1="406.6018" x2="-277.375" y2="407.5726" gradientTransform="matrix(40 0 0 -39.7778 11115.001 16212.334)"><stop offset="0" style="stop-color:#0062E0"></stop>	<stop offset="1" style="stop-color:#19AFFF"></stop></linearGradient><path class="st0" d="M16.7,39.8C7.2,38.1,0,29.9,0,20C0,9,9,0,20,0s20,9,20,20c0,9.9-7.2,18.1-16.7,19.8l-1.1-0.9h-4.4L16.7,39.8z"></path><path class="st1" d="M27.8,25.6l0.9-5.6h-5.3v-3.9c0-1.6,0.6-2.8,3-2.8h2.6V8.2c-1.4-0.2-3-0.4-4.4-0.4c-4.6,0-7.8,2.8-7.8,7.8V20 h-5v5.6h5v14.1c1.1,0.2,2.2,0.3,3.3,0.3c1.1,0,2.2-0.1,3.3-0.3V25.6H27.8z"></path></svg>
+                    </button>
+                    <!-- twitter icon -->
+                    <button type="button" class="btn btn-secondary bg-transparent fsC_none_brdr" onclick="window.open('https://twitter.com/quicksio','_blank')">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#262626" class="bi bi-twitter" viewBox="0 0 15 15" style="fill: #52a2f3;pointer-events: none;">
+                        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"></path>
+                        </svg>
+                    </button>
+                                  <!-- instagram icon -->
+                    <button type="button" class="btn btn-secondary bg-transparent fsC_none_brdr" onclick="window.open('https://www.instagram.com/quicks.io/','_blank')">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#d5248c" class="bi bi-instagram" viewBox="0 0 16 16" style="pointer-events: none;">
+                        <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                      </svg>
+                    </button>
+                </div><!-- social media icon  -->
+            </div> <!-- fs_lcAlign -->
+          </div>
+          <div class="col-sm-6 col-12">
+			        <div class="fs_rcAlign" style="margin-top: 12px;">
+				           <!-- contact email ID -->
+                    <div class="d_positional fs_rcAlign" style="width: max-content;">
+                        <div class="" style="width:max-content; font-size: 1rem;position: relative;background: #d52a8c;font-weight: 700; color: #f9faf7; padding: 0px 37px;">
+                          design@quicks.io
+                        </div>
+                  </div> <!-- positional div -->   
+                 <!-- contact me email ID -->
+            </div> <!-- fs_rcAlign -->
+        </div> <!-- right col-sm-6 -->
+       </div>  <!-- row  --> 
+  <!--  BS container-->
+     </div>  <!--  fs_containerMargin-->
+  </div>
+</section>
+<!-- Footer important info and copyright -->
+    <!-- position:sticky;bottom:0;  -->
+    <section id="footer"  class="container-fluid px-0 pt-2" style="background-color: white;box-shadow: rgb(0 0 0 / 20%) 0px 0px 8px;position: sticky;bottom: 0px;z-index: 1030;"> 
+      <div class="container" style="background:transparent;">
+        <div class="fs_containerMargin my-0">  
+           <div class="row text-center mx-auto" style="width: max-content;">
+                            
+                <!-- important no refund -->
+                <div q_id="POL_NOREFUND" modal-key="others"  class="col px-2 mx-2 float-left btmMenuItem modalButton " style="color:rgb(247, 113, 113);width:max-content;max-width: max-content;">No refund</div>
+                <!-- Bottom links  -->
+                <div q_id="FQ" modal-key="others" class="col px-2 mx-2 float-left btmMenuItem modalButton " style="width:max-content;max-width: max-content;">FAQ</div>
+                <div q_id="PRC" modal-key="others" class="col px-2 mx-2 float-left btmMenuItem modalButton " style="width:max-content;max-width: max-content;">Pricing</div>
+                
+                <!-- More icon for fixed bottom menu -->
+                <div id="fixedBtmMenu" class="btn-group dropup">
+                  <button type="button" class="btn btn-secondary distanceLeftMoreBtmIcon caret-off dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="width: 22px;border: 1px solid transparent;height: 22px;background: transparent;">
+                    <!-- Dropup -->
+                    <div id="expBtnMenu" class="btmMenu modalButton" style="position: absolute;width: 21px;height: 21px;pointer-events:none;background-color: #4c403a;color: white;fill: white;border-radius: 50%;top: 50%;left: 50%;transform: translate(-50%, -50%);">
+                        <svg style="pointer-events:none;padding: 5px;margin-top: -5px;" width="100%" height="100%" viewBox="0 0 24 24" id="d1946b9c-e9fc-4920-ad22-a61f3f1cb4e0" data-name="Livello 1" xmlns="http://www.w3.org/2000/svg"><g><circle cx="12.13" cy="21.5" r="2.5"></circle><circle cx="12.13" cy="12" r="2.5"></circle><circle cx="12.13" cy="2.5" r="2.5"></circle></g></svg>
+                    </div>
+                  </button>
+                  <div id="ddWrapper" class="dropdown-wrapper" style="position:relative;width:0px;height:0px;">
+                      <div id="actDropdownMenu" class="dropdown-menu" x-placement="top-start" style="padding: 4px;position: absolute;
+                      will-change: transform;top: 0px;left: 0px;transform: translate3d(-111px, -100px, 0px);">
+                        <div q_id="HIW" modal-key="others" class="col px-2 my-2 py-2 mx-2 float-left btmMenuItem modalButton " style="width:95%;">How it works?</div>
+                        <div class="dropdown-divider"></div>
+                        <div q_id="POL_TnC" modal-key="others"  class="col px-2 my-2 py-2 mx-2 float-left btmMenuItem modalButton " style="width:95%;">Terms & Conditions</div>
+                        <div class="dropdown-divider"></div>
+                        <div q_id="POL_PRIVY" modal-key="others"  class="col px-2 my-2 py-2  mx-2 float-left btmMenuItem modalButton " style="width:95%;">Privacy Policy</div>
+                        <div class="dropdown-divider"></div>
+                        <div q_id="POL_DELIVER" modal-key="others"  class="col px-2 my-2 py-2  mx-2 float-left btmMenuItem modalButton " style="width:95%;">Product Delivery</div>
+                        <div class="dropdown-divider"></div>
+                        <div q_id="POL_CONTACT" modal-key="others"  class="col px-2 my-2 py-2  mx-2 float-left btmMenuItem modalButton " style="width:95%;">Contact details</div>
+                      </div>
+                  </div>
+                </div> <!--  btn-group dropup -->    
+           </div>
+           <div class="row text-center mt-1 mx-auto">
+              <div class="mx-auto" style="font-size: 0.7rem;">Copyright 2022 Quicks.io</div>
+           </div>
+        </div>
+        </div>
+      </div>
+    </section>
+<script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () =>
+          navigator.serviceWorker.register('sw.min.js', { scope: './' })
+        .then(registration => { /*console.log('Service Worker registered')*/ })
+        .catch(err => 'SW registration failed'));
+      } 
+</script>
+<script>
+  addScript();var _windowDims=function(t){return{getWindow_Height:function(){return document.getElementById("i-inviCh").getBoundingClientRect().height},getWindow_Width:function(){return document.getElementById("i-inviCh").getBoundingClientRect().width},addDimElement:function(){!function(){var t=document.getElementById("i-invisibleBody")||!1;t&&t.remove();var e=document.querySelector("body"),i=document.createElement("div");i.setAttribute("id","i-invisibleBody"),e.appendChild(i),i.style_v5width="0px",i.style_v5height="0px",i.style_v5visibility="hidden",i.style_v5overflow="hidden";var n=document.createElement("div");n.setAttribute("id","i-inviCh"),i.appendChild(n),n.style_v5width="100vw",n.style_v5height="100vh",n.style_v5visibility="hidden"}()},addAttr:function(t,e){!function(t,e){document.getElementById("i-invisibleBody").setAttribute(t,e)}(t,e)},getAttr:function(t){return function(t){return document.getElementById("i-invisibleBody").getAttribute(t)}(t)},getelement:function(){return document.getElementById("i-inviCh")}}};function addDimensionNode(){(new _windowDims).addDimElement()}
+ ;function setDevice(e){var d="";e>0&&e<576?d="xs":e>=576&&e<768?d="sm":e>=768&&e<992?d="md":e>=992&&e<1200?d="lg":e>=1200&&(d="xl"),(new _windowDims).addAttr("device",d)}
+ ;function doDimension(){var i=(new _windowDims).getAttr("device");isVerticlePosition(i)?(new _windowDims).addAttr("orient","V"):(new _windowDims).addAttr("orient","H")}
+ ;function isVerticlePosition(i){var n=!1;return"xs"!==i&&"md"!==i||(n=!0),n};function extraMenuLoaded(){new _extraMenu}function addScript(){let e=document.createElement("script");e.setAttribute("src","./js/extraMenu.js"),e.setAttribute("async","false"),document.body.appendChild(e),e.addEventListener("load",(function(){new _extraMenu}),!1)};function init(){addDimensionNode();var e=(new _windowDims).getWindow_Width();setDevice(e),headerData=document.getElementById("headerCarousal").outerHTML,_HD.setHeaderContent("headerCarousal"),setTimeout((()=>{document.getElementById("headerText").style_v5transition="opacity 500ms",document.getElementById("headerText").style_v5opacity="1",document.getElementById("carousalItem1_Text").style_v5transition="opacity 100ms",document.getElementById("carousalItem1_Text").style_v5opacity="1"}),1e3),doDimension()}
+ ;var _HD = (function() { //init data (ID) - function is constructor
+  var headerData = '';  function lSetHeaderContent( elemName) { headerData = document.getElementById(elemName).outerHTML; }
+  function lGetHeaderContent( ) { return headerData;}
+  return { setHeaderContent : function(elemName) {lSetHeaderContent(elemName);}, getHeaderContent: function() {return lGetHeaderContent();}
+  };
+})(); //_HD
+  init(); //call
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+  $(document).ready((function(){var i=function(){var i=document.getElementById("i-inviCh").getBoundingClientRect().width;if(i<420){var e=$("#actDropdownMenu");e.addClass("show"),e.css({visibility:"hidden"});var n=e.outerWidth();e.css({visibility:"visible"}),e.removeClass("show"),$("#ddWrapper").css({"margin-left":-1*(i-n-120)+"px"})}};i(),$(window).resize((function(){i()}))}));
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha512-n6dYFOG599s4/mGlA6E+YLgtg9uPTOMDUb0IprSMDYVLr0ctiRryPEQ8gpM4DCMlx7M2G3CK+ZcaoOoJolzdCg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src='https://cdn.jsdelivr.net/npm/bowser@latest/es5.js'></script> <! -- detect browser -- >
+<script defer src="./js/app_v8.js"></script>
+<script defer src="./js/app2_v9.js"></script> 
+<!-- https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js -->
+
+</body>
+</html>
